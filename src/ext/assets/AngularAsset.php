@@ -20,9 +20,14 @@ class AngularAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/bower_components/angular';
     public $baseUrl = '@web';
-    public $css = [];
-    public $js = [
-        //'angular.min.js'
-        'angular.js'
-    ];
+    
+    /**
+     * @override
+     */
+    public function init() {
+        
+        $this->js = [
+            YII_DEBUG ? 'angular.js' : 'angular.min.js'
+        ];
+    }
 }

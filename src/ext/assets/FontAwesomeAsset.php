@@ -1,16 +1,17 @@
 <?php
-/**
- * @link http://fontawesome.io/
- * @copyright Copyright &copy; 2014 Javier Perea
- * @license JPR
+/*
+ * This file is part of the mio project.
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
-namespace common\ext\assets;
+namespace mio\ext\assets;
 
 use yii\web\AssetBundle;
 
 /**
- * Font Awesome for Yii2 Project.
+ * Font Awesome for mio project.
  *
  * @author Javier Perea <javier.perea@outlook.com>
  * @since 1.0
@@ -20,7 +21,7 @@ class FontAwesomeAsset extends AssetBundle
     public $sourcePath = '@vendor/fortawesome/font-awesome';
 
     /**
-     * TODO: what can happen on windows '\'?
+     * TODO: what happen on windows '\'?
      */
     public function init() {
         

@@ -29,7 +29,13 @@
 	"scripts": {
 		"post-create-project-cmd": [
 			"yii\\composer\\Installer::setPermission"
-		]
+		],
+        "post-install-cmd": [
+            "bower install"
+        ],
+        "post-update-cmd": [
+            "bower install"
+        ]
 	},
 	"config": {
 		"process-timeout": 1800
