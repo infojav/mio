@@ -1,0 +1,59 @@
+/* 
+    Created on : 07-jun-2014, 12:56:01
+    Author     : javier
+*/
+
+
+.captionbar ul.breadcrumb li{
+    padding-top: 0.3em;
+    font-size: 1.3em;
+    color: white !important; 
+}
+
+.captionbar button {
+    background-color: transparent;
+    border: 0.1em solid white;
+}
+
+.captionbar button:hover {
+    color: green;
+    border-color: white;
+    
+}
+
+ul.breadcrumb li{
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.captionbar {
+    /*margin-top: 0.1em;*/
+    padding: 6px 0px;
+    /*margin-bottom: 20px;*/
+    background-color: transparent;   
+}
+
+.captionbar .breadcrumb {
+    background-color: transparent;
+    display: inline;
+}
+
+.captionbar .breadcrumb li a {
+    color: white;
+}
+
+.captionbar form {
+    display: inline;
+    margin: 0px;
+    padding: 0px;  
+}
+
+.captionbar form button {
+    color: white;
+}
+
+.captionbar > ul.breadcrumb:first-child {
+    padding-left: 0px;
+}
+
+
