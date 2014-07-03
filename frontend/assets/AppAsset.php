@@ -19,7 +19,7 @@ class AppAsset extends AssetBundle
     public $css = ['css/site.css'];
     public $js = [];
     public $depends = [
-        'mio\web\MioAsset',
-        'mio\bootstrap\BootstrapAsset',
+        'mio\ext\web\MioAsset',
+        'mio\ext\bootstrap\BootstrapAsset',
     ];
 }
