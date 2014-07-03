@@ -3,13 +3,13 @@ use yii\helpers\Html;
 use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
-use frontend\assets\AppAsset;
+use frontend\assets\MioAsset;
 use frontend\widgets\Alert;
 
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-AppAsset::register($this);
+MioAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
