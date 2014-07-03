@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the Dektrium project.
+ * This file is part of the mio project.
  *
  * (c) Mio project
  *
