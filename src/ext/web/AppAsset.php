@@ -8,7 +8,7 @@
  * file that was distributed with this source code.
  */
 
-namespace backend\assets;
+namespace mio\ext\web;
 
 use yii\web\AssetBundle;
 
@@ -19,7 +19,7 @@ class AppAsset extends AssetBundle
     public $css = ['css/site.css'];
     public $js = [];
     public $depends = [
-        'mio\ext\web\MioAsset',
-        'mio\ext\bootstrap\BootstrapAsset',
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
     ];
 }

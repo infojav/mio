@@ -1,16 +1,17 @@
 <?php
-/**
- * @link http://angularjs.org/
- * @copyright Copyright &copy; 2014 Javier Perea
- * @license JPR
+/*
+ * This file is part of the mio project.
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
-namespace common\ext\assets;
+namespace mio\ext\assets;
 
 use yii\web\AssetBundle;
 
 /**
- * Font Awesome for Yii2 Project.
+ * Angular Asset for mio project.
  *
  * @author Javier Perea <javier.perea@outlook.com>
  * @since 1.0

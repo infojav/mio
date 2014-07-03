@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "310c2b3cafb9f8d3160b12f01ceaf63e",
+    "hash": "afe3468b23515b112beb9aa751332898",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -270,12 +270,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "29b7285d5a02d8b9760bbfcba81809da3981d326"
+                "reference": "5ee577c43e617647f7f4426a028531ef834f2d78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/29b7285d5a02d8b9760bbfcba81809da3981d326",
-                "reference": "29b7285d5a02d8b9760bbfcba81809da3981d326",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/5ee577c43e617647f7f4426a028531ef834f2d78",
+                "reference": "5ee577c43e617647f7f4426a028531ef834f2d78",
                 "shasum": ""
             },
             "require": {
@@ -343,7 +343,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2014-07-01 08:53:05"
+            "time": "2014-07-02 23:03:16"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
