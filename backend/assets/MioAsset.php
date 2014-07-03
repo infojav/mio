@@ -7,6 +7,6 @@
  */
 namespace mio\ext\web;
 
-class MioAsset extends \yii\web\AppAsset
+class MioAsset extends \mio\ext\web\AppAsset
 {
 }
