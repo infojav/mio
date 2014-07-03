@@ -1,18 +1,17 @@
 <?php
 /**
- * @link http://www.yiiframework.com/
- * @copyright Copyright (c) 2008 Yii Software LLC
- * @license http://www.yiiframework.com/license/
+ * This file is part of the Dektrium project.
+ *
+ * (c) Mio project
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
  */
 
 namespace backend\assets;
 
 use yii\web\AssetBundle;
 
-/**
- * @author Qiang Xue <qiang.xue@gmail.com>
- * @since 2.0
- */
 class AppAsset extends AssetBundle
 {
     public $basePath = '@webroot';
@@ -20,7 +19,7 @@ class AppAsset extends AssetBundle
     public $css = ['css/site.css'];
     public $js = [];
     public $depends = [
-        'yii\web\YiiAsset',
-        'yii\bootstrap\BootstrapAsset',
+        'mio\web\MioAsset',
+        'mio\bootstrap\BootstrapAsset',
     ];
 }
